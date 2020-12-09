@@ -1,4 +1,5 @@
-import pinyin
+from pypinyin import pinyin
+from itertools import chain
 import csv
 import requests
 import json
@@ -14,7 +15,6 @@ FAKE_HEADER = {
 
 Base_url = "https://tinydict-translateapi.appspot.com/{}"
 
-
 newCompletedCards = []
 with open('chinese.csv') as chineseFile:
   chineseReader = csv.reader(chineseFile, delimiter=',')
@@ -23,7 +23,8 @@ with open('chinese.csv') as chineseFile:
   for row in chineseReader:
     card = []
     card.append(row[0]) # 0 is 汉子
-    card.append(pinyin.get(row[0])) # 1 is pinyin
+    wordInPinyin = pinyin(row[0])
+    card.append(' ' .join(chain.from_iterable(wordInPinyin))) # 1 is pinyin
 
     # get youdao.com data from their api
     requests_url = "http://dict.youdao.com/jsonapi?q=%s" % row[0]
@@ -35,15 +36,16 @@ with open('chinese.csv') as chineseFile:
     trans = resp["web_trans"]["web-translation"][0]["trans"]
     for translation in trans:
       english_definition += translation["value"] + ", "
-    card.append(english_definition)
+    card.append(english_definition) # 2 is english translation
 
     # Just add an empty element for the audio
-    card.append("")
+    card.append("") # 3 is audio. Just use awesomeTTS for this
 
     # Get the first example sentence
     exampleSentence = resp["blng_sents_part"]["sentence-pair"][0]
     card.append(exampleSentence["sentence-eng"]) # add in the Chinese sentence. This should have the word bolded
-    card.append(pinyin.get(exampleSentence["sentence"], delimiter=" ")) # next have the pinyin
+    sentence = pinyin(exampleSentence["sentence"])
+    card.append(' ' .join(chain.from_iterable(sentence))) # next have the pinyin
     card.append(exampleSentence["sentence-translation"]) # lastly, include the translation
 
     print(card)
