@@ -1,0 +1,1242 @@
+{
+  "web_trans": {
+    "web-translation": [
+      {
+        "@same": "true",
+        "key": "惊讶",
+        "trans": [
+          {
+            "summary": {
+              "line": [
+                "我才能够从电视画面中渐渐鳞爪散碎在脑海中的关于这场逐鹿的追思，以及这场竞争之后的忻悦、<b>惊讶</b>(<b>Surprised</b>)和感触。三做：做别人不知道要做的事；做别人不想做的事；做别人做不到的事。"
+              ]
+            },
+            "value": "Surprised",
+            "support": 7506,
+            "url": ""
+          },
+          {
+            "summary": {
+              "line": [
+                "... snow雪sound声音 star星tree树weather天气 wind风 <b>wonder惊讶</b>；惊叹；奇迹 cloudy多云的；阴天的cold冷的；寒冷的cool凉；凉快的 ..."
+              ]
+            },
+            "value": "Wonder",
+            "support": 1004,
+            "url": ""
+          },
+          {
+            "summary": {
+              "line": [
+                "... 〖abadlyfrightenedperson〗弓箭发射后未受伤害而幸存的鸟。比喻因受惊恐而警觉特别灵敏的人,也指惊慌失措的样子 〖surprised;<b>amazed</b>〗<b>惊讶</b>;惊异 〖frightened;panic-stricken〗恐慌恐惧 ..."
+              ]
+            },
+            "value": "amazed",
+            "support": 672,
+            "url": ""
+          },
+          {
+            "summary": {
+              "line": [
+                "... ASTME美国工具与制造工程师学会 <b>astonishment惊讶</b> astragalplane圆缘刨 ..."
+              ]
+            },
+            "value": "astonishment",
+            "support": 312,
+            "url": ""
+          }
+        ]
+      },
+      {
+        "key": "非常惊讶",
+        "trans": [
+          {
+            "value": "astounded"
+          },
+          {
+            "value": "My Goodness"
+          },
+          {
+            "value": "Oh, mine"
+          },
+          {
+            "value": "Boy"
+          }
+        ]
+      },
+      {
+        "key": "暗夜惊讶",
+        "trans": [
+          {
+            "value": "Dark Lunacy"
+          }
+        ]
+      },
+      {
+        "key": "引起惊讶",
+        "trans": [
+          {
+            "value": "surprise"
+          },
+          {
+            "value": "wonder"
+          },
+          {
+            "value": "cause surprise"
+          }
+        ]
+      },
+      {
+        "key": "惊讶洞",
+        "trans": [
+          {
+            "value": "Sung Sot Cave"
+          },
+          {
+            "value": "Surprise hole"
+          }
+        ]
+      },
+      {
+        "key": "令人惊讶",
+        "trans": [
+          {
+            "value": "astoundsurprise"
+          },
+          {
+            "value": "The amazing"
+          },
+          {
+            "value": "erstaunlich"
+          },
+          {
+            "value": "Amazing"
+          }
+        ]
+      },
+      {
+        "key": "没有惊讶",
+        "trans": [
+          {
+            "value": "No Surprises"
+          }
+        ]
+      },
+      {
+        "key": "令惊讶",
+        "trans": [
+          {
+            "value": "to one's surprise"
+          }
+        ]
+      },
+      {
+        "key": "惊讶队长",
+        "trans": [
+          {
+            "value": "Captain Marvel"
+          }
+        ]
+      },
+      {
+        "key": "惊讶赞赏",
+        "trans": [
+          {
+            "value": "feel surprised and appreciate"
+          }
+        ]
+      }
+    ]
+  },
+  "blng_sents_part": {
+    "sentence-count": 6,
+    "sentence-pair": [
+      {
+        "sentence": "她竟记得我的名字，使我万分惊讶。",
+        "sentence-translation-speech": "To+my+utter+astonishment+%2C+she+remembered+my+name.&le=eng",
+        "sentence-eng": "她竟记得我的名字，使我万分<b>惊讶</b>。",
+        "sentence-translation": "To my utter astonishment , she remembered my name.",
+        "speech-size": "13kb",
+        "aligned-words": {
+          "src": {
+            "q": [
+              {
+                "@s": "14",
+                "@e": "16"
+              }
+            ],
+            "chars": [
+              {
+                "@s": "1",
+                "@e": "2",
+                "aligns": {
+                  "sc": [
+                    {
+                      "@id": "0"
+                    }
+                  ],
+                  "tc": [
+                    {
+                      "@id": "3"
+                    }
+                  ]
+                },
+                "@id": "0"
+              },
+              {
+                "@s": "2",
+                "@e": "5",
+                "aligns": {
+                  "sc": [
+                    {
+                      "@id": "1"
+                    }
+                  ],
+                  "tc": [
+                    {
+                      "@id": "4"
+                    }
+                  ]
+                },
+                "@id": "1"
+              },
+              {
+                "@s": "5",
+                "@e": "6",
+                "aligns": {
+                  "sc": [
+                    {
+                      "@id": "2"
+                    },
+                    {
+                      "@id": "5"
+                    }
+                  ],
+                  "tc": [
+                    {
+                      "@id": "0"
+                    }
+                  ]
+                },
+                "@id": "2"
+              },
+              {
+                "@s": "7",
+                "@e": "9",
+                "aligns": {
+                  "sc": [
+                    {
+                      "@id": "4"
+                    }
+                  ],
+                  "tc": [
+                    {
+                      "@id": "6"
+                    }
+                  ]
+                },
+                "@id": "4"
+              },
+              {
+                "@s": "11",
+                "@e": "12",
+                "aligns": {
+                  "sc": [
+                    {
+                      "@id": "2"
+                    },
+                    {
+                      "@id": "5"
+                    }
+                  ],
+                  "tc": [
+                    {
+                      "@id": "0"
+                    }
+                  ]
+                },
+                "@id": "5"
+              },
+              {
+                "@s": "12",
+                "@e": "14",
+                "aligns": {
+                  "sc": [
+                    {
+                      "@id": "7"
+                    }
+                  ],
+                  "tc": [
+                    {
+                      "@id": "1"
+                    }
+                  ]
+                },
+                "@id": "7"
+              }
+            ]
+          },
+          "tran": {
+            "chars": [
+              {
+                "@s": "4",
+                "@e": "6",
+                "aligns": {
+                  "sc": [
+                    {
+                      "@id": "2"
+                    },
+                    {
+                      "@id": "5"
+                    }
+                  ],
+                  "tc": [
+                    {
+                      "@id": "0"
+                    }
+                  ]
+                },
+                "@id": "0"
+              },
+              {
+                "@s": "7",
+                "@e": "25",
+                "aligns": {
+                  "sc": [
+                    {
+                      "@id": "7"
+                    }
+                  ],
+                  "tc": [
+                    {
+                      "@id": "1"
+                    }
+                  ]
+                },
+                "@id": "1"
+              },
+              {
+                "@s": "28",
+                "@e": "31",
+                "aligns": {
+                  "sc": [
+                    {
+                      "@id": "0"
+                    }
+                  ],
+                  "tc": [
+                    {
+                      "@id": "3"
+                    }
+                  ]
+                },
+                "@id": "3"
+              },
+              {
+                "@s": "32",
+                "@e": "42",
+                "aligns": {
+                  "sc": [
+                    {
+                      "@id": "1"
+                    }
+                  ],
+                  "tc": [
+                    {
+                      "@id": "4"
+                    }
+                  ]
+                },
+                "@id": "4"
+              },
+              {
+                "@s": "46",
+                "@e": "50",
+                "aligns": {
+                  "sc": [
+                    {
+                      "@id": "4"
+                    }
+                  ],
+                  "tc": [
+                    {
+                      "@id": "6"
+                    }
+                  ]
+                },
+                "@id": "6"
+              }
+            ]
+          }
+        },
+        "source": "《牛津词典》",
+        "url": "http://《牛津词典》/"
+      },
+      {
+        "sentence": "人们感到惊讶，史密斯竟未列入该队。",
+        "sentence-translation-speech": "People+were+surprised+that+Smith+was+omitted+from+the+team.&le=eng",
+        "sentence-eng": "人们感到<b>惊讶</b>，史密斯竟未列入该队。",
+        "sentence-translation": "People were surprised that Smith was omitted from the team.",
+        "speech-size": "16kb",
+        "aligned-words": {
+          "src": {
+            "q": [
+              {
+                "@s": "5",
+                "@e": "7"
+              }
+            ],
+            "chars": [
+              {
+                "@s": "1",
+                "@e": "3",
+                "aligns": {
+                  "sc": [
+                    {
+                      "@id": "0"
+                    }
+                  ],
+                  "tc": [
+                    {
+                      "@id": "0"
+                    }
+                  ]
+                },
+                "@id": "0"
+              },
+              {
+                "@s": "3",
+                "@e": "5",
+                "aligns": {
+                  "sc": [
+                    {
+                      "@id": "1"
+                    }
+                  ],
+                  "tc": [
+                    {
+                      "@id": "1"
+                    }
+                  ]
+                },
+                "@id": "1"
+              },
+              {
+                "@s": "8",
+                "@e": "11",
+                "aligns": {
+                  "sc": [
+                    {
+                      "@id": "3"
+                    }
+                  ],
+                  "tc": [
+                    {
+                      "@id": "3"
+                    }
+                  ]
+                },
+                "@id": "3"
+              },
+              {
+                "@s": "11",
+                "@e": "12",
+                "aligns": {
+                  "sc": [
+                    {
+                      "@id": "4"
+                    }
+                  ],
+                  "tc": [
+                    {
+                      "@id": "4"
+                    }
+                  ]
+                },
+                "@id": "4"
+              }
+            ]
+          },
+          "tran": {
+            "chars": [
+              {
+                "@s": "1",
+                "@e": "7",
+                "aligns": {
+                  "sc": [
+                    {
+                      "@id": "0"
+                    }
+                  ],
+                  "tc": [
+                    {
+                      "@id": "0"
+                    }
+                  ]
+                },
+                "@id": "0"
+              },
+              {
+                "@s": "8",
+                "@e": "22",
+                "aligns": {
+                  "sc": [
+                    {
+                      "@id": "1"
+                    }
+                  ],
+                  "tc": [
+                    {
+                      "@id": "1"
+                    }
+                  ]
+                },
+                "@id": "1"
+              },
+              {
+                "@s": "28",
+                "@e": "33",
+                "aligns": {
+                  "sc": [
+                    {
+                      "@id": "3"
+                    }
+                  ],
+                  "tc": [
+                    {
+                      "@id": "3"
+                    }
+                  ]
+                },
+                "@id": "3"
+              },
+              {
+                "@s": "34",
+                "@e": "45",
+                "aligns": {
+                  "sc": [
+                    {
+                      "@id": "4"
+                    }
+                  ],
+                  "tc": [
+                    {
+                      "@id": "4"
+                    }
+                  ]
+                },
+                "@id": "4"
+              }
+            ]
+          }
+        },
+        "source": "《牛津词典》",
+        "url": "http://《牛津词典》/"
+      },
+      {
+        "sentence": "他脸上的表情由同情变成惊讶。",
+        "sentence-translation-speech": "The+expression+on+his+face+changed+from+sympathy+to+surprise.&le=eng",
+        "sentence-eng": "他脸上的表情由同情变成<b>惊讶</b>。",
+        "sentence-translation": "The expression on his face changed from sympathy to surprise.",
+        "speech-size": "16kb",
+        "aligned-words": {
+          "src": {
+            "chars": [
+              {
+                "@s": "1",
+                "@e": "2",
+                "aligns": {
+                  "sc": [
+                    {
+                      "@id": "0"
+                    }
+                  ],
+                  "tc": [
+                    {
+                      "@id": "2"
+                    }
+                  ]
+                },
+                "@id": "0"
+              },
+              {
+                "@s": "2",
+                "@e": "4",
+                "aligns": {
+                  "sc": [
+                    {
+                      "@id": "1"
+                    }
+                  ],
+                  "tc": [
+                    {
+                      "@id": "3"
+                    }
+                  ]
+                },
+                "@id": "1"
+              },
+              {
+                "@s": "4",
+                "@e": "5",
+                "aligns": {
+                  "sc": [
+                    {
+                      "@id": "2"
+                    }
+                  ],
+                  "tc": [
+                    {
+                      "@id": "0"
+                    }
+                  ]
+                },
+                "@id": "2"
+              },
+              {
+                "@s": "5",
+                "@e": "7",
+                "aligns": {
+                  "sc": [
+                    {
+                      "@id": "3"
+                    }
+                  ],
+                  "tc": [
+                    {
+                      "@id": "1"
+                    }
+                  ]
+                },
+                "@id": "3"
+              },
+              {
+                "@s": "7",
+                "@e": "8",
+                "aligns": {
+                  "sc": [
+                    {
+                      "@id": "4"
+                    }
+                  ],
+                  "tc": [
+                    {
+                      "@id": "5"
+                    }
+                  ]
+                },
+                "@id": "4"
+              },
+              {
+                "@s": "8",
+                "@e": "10",
+                "aligns": {
+                  "sc": [
+                    {
+                      "@id": "5"
+                    }
+                  ],
+                  "tc": [
+                    {
+                      "@id": "6"
+                    }
+                  ]
+                },
+                "@id": "5"
+              },
+              {
+                "@s": "10",
+                "@e": "12",
+                "aligns": {
+                  "sc": [
+                    {
+                      "@id": "6"
+                    }
+                  ],
+                  "tc": [
+                    {
+                      "@id": "4"
+                    }
+                  ]
+                },
+                "@id": "6"
+              },
+              {
+                "q": [
+                  {
+                    "@s": "12",
+                    "@e": "14"
+                  }
+                ],
+                "@s": "12",
+                "@e": "14",
+                "aligns": {
+                  "sc": [
+                    {
+                      "@id": "7"
+                    }
+                  ],
+                  "tc": [
+                    {
+                      "@id": "7"
+                    }
+                  ]
+                },
+                "@id": "7"
+              }
+            ]
+          },
+          "tran": {
+            "chars": [
+              {
+                "@s": "1",
+                "@e": "4",
+                "aligns": {
+                  "sc": [
+                    {
+                      "@id": "2"
+                    }
+                  ],
+                  "tc": [
+                    {
+                      "@id": "0"
+                    }
+                  ]
+                },
+                "@id": "0"
+              },
+              {
+                "@s": "5",
+                "@e": "18",
+                "aligns": {
+                  "sc": [
+                    {
+                      "@id": "3"
+                    }
+                  ],
+                  "tc": [
+                    {
+                      "@id": "1"
+                    }
+                  ]
+                },
+                "@id": "1"
+              },
+              {
+                "@s": "19",
+                "@e": "22",
+                "aligns": {
+                  "sc": [
+                    {
+                      "@id": "0"
+                    }
+                  ],
+                  "tc": [
+                    {
+                      "@id": "2"
+                    }
+                  ]
+                },
+                "@id": "2"
+              },
+              {
+                "@s": "23",
+                "@e": "27",
+                "aligns": {
+                  "sc": [
+                    {
+                      "@id": "1"
+                    }
+                  ],
+                  "tc": [
+                    {
+                      "@id": "3"
+                    }
+                  ]
+                },
+                "@id": "3"
+              },
+              {
+                "@s": "28",
+                "@e": "35",
+                "aligns": {
+                  "sc": [
+                    {
+                      "@id": "6"
+                    }
+                  ],
+                  "tc": [
+                    {
+                      "@id": "4"
+                    }
+                  ]
+                },
+                "@id": "4"
+              },
+              {
+                "@s": "36",
+                "@e": "40",
+                "aligns": {
+                  "sc": [
+                    {
+                      "@id": "4"
+                    }
+                  ],
+                  "tc": [
+                    {
+                      "@id": "5"
+                    }
+                  ]
+                },
+                "@id": "5"
+              },
+              {
+                "@s": "41",
+                "@e": "49",
+                "aligns": {
+                  "sc": [
+                    {
+                      "@id": "5"
+                    }
+                  ],
+                  "tc": [
+                    {
+                      "@id": "6"
+                    }
+                  ]
+                },
+                "@id": "6"
+              },
+              {
+                "@s": "53",
+                "@e": "61",
+                "aligns": {
+                  "sc": [
+                    {
+                      "@id": "7"
+                    }
+                  ],
+                  "tc": [
+                    {
+                      "@id": "7"
+                    }
+                  ]
+                },
+                "@id": "7"
+              }
+            ]
+          }
+        },
+        "source": "《柯林斯英汉双解大词典》",
+        "url": "http://《柯林斯英汉双解大词典》/"
+      }
+    ],
+    "more": "blng_sents",
+    "trs-classify": [
+      {
+        "proportion": "100%",
+        "tr": "全部"
+      },
+      {
+        "proportion": "78.4%",
+        "tr": "surprised"
+      },
+      {
+        "proportion": "7.3%",
+        "tr": "amazed"
+      },
+      {
+        "proportion": "5.7%",
+        "tr": "astonished"
+      },
+      {
+        "proportion": "3.9%",
+        "tr": "astonishment"
+      },
+      {
+        "proportion": "2.5%",
+        "tr": "wonder"
+      },
+      {
+        "proportion": "0.9%",
+        "tr": "astounded"
+      },
+      {
+        "proportion": "0.6%",
+        "tr": "marvel"
+      },
+      {
+        "proportion": "0.3%",
+        "tr": "taken aback"
+      },
+      {
+        "proportion": "0.3%",
+        "tr": "astonish"
+      }
+    ]
+  },
+  "ce": {
+    "source": {
+      "name": "有道词典",
+      "url": "http://dict.youdao.com"
+    },
+    "word": [
+      {
+        "trs": [
+          {
+            "tr": [
+              {
+                "l": {
+                  "pos": "adj.",
+                  "i": [
+                    "",
+                    {
+                      "#text": "amazed",
+                      "@action": "link",
+                      "@href": "app:ds:amazed"
+                    }
+                  ],
+                  "#tran": "（使）大为惊奇，惊愕；（使）糊涂（amaze 的过去式及过去分词）；大为惊奇的，惊讶的；"
+                }
+              }
+            ]
+          },
+          {
+            "tr": [
+              {
+                "l": {
+                  "pos": "n.",
+                  "i": [
+                    "",
+                    {
+                      "#text": "astonishment",
+                      "@action": "link",
+                      "@href": "app:ds:astonishment"
+                    }
+                  ],
+                  "#tran": "惊讶；令人惊讶的事物；"
+                }
+              }
+            ]
+          },
+          {
+            "tr": [
+              {
+                "l": {
+                  "pos": "adj.",
+                  "i": [
+                    "",
+                    {
+                      "#text": "astounded",
+                      "@action": "link",
+                      "@href": "app:ds:astounded"
+                    }
+                  ],
+                  "#tran": "受惊骇的；被震惊的；使惊愕（astound的过去式和过去分词）；"
+                }
+              }
+            ]
+          },
+          {
+            "tr": [
+              {
+                "l": {
+                  "pos": "adj.",
+                  "i": [
+                    "",
+                    {
+                      "#text": "surprised",
+                      "@action": "link",
+                      "@href": "app:ds:surprised"
+                    }
+                  ],
+                  "#tran": "感到惊讶的，出人意料的；使惊奇（surprise的过去分词形式）；"
+                }
+              }
+            ]
+          },
+          {
+            "tr": [
+              {
+                "l": {
+                  "pos": "adj.",
+                  "i": [
+                    "",
+                    {
+                      "#text": "astonished",
+                      "@action": "link",
+                      "@href": "app:ds:astonished"
+                    }
+                  ],
+                  "#tran": "吃惊的；"
+                }
+              }
+            ]
+          }
+        ],
+        "phone": "jīng yà",
+        "return-phrase": {
+          "l": {
+            "i": "惊讶"
+          }
+        }
+      }
+    ]
+  },
+  "wuguanghua": {
+    "dataList": [
+      {
+        "trs": [
+          {
+            "tr": {
+              "en": "surprised; amazed; astonished; astounded"
+            },
+            "sents": [
+              {
+                "en": "The audience was inexpressibly astonished at the brilliant performance.",
+                "cn": "那出色的表演使观众感到说不出的惊讶。"
+              },
+              {
+                "en": "Visitors were amazed at the students' conversational fluency in English.",
+                "cn": "访问者对学生们流利的英语感到惊讶。"
+              }
+            ]
+          }
+        ],
+        "phone": "[jīng yà]"
+      }
+    ],
+    "source": {
+      "name": "《吴光华汉英大辞典》"
+    },
+    "word": "惊讶"
+  },
+  "ce_new": {
+    "source": {
+      "name": "新汉英大辞典"
+    },
+    "word": [
+      {
+        "trs": [
+          {
+            "tr": [
+              {
+                "exam": [
+                  {
+                    "i": {
+                      "f": {
+                        "l": {
+                          "i": "The audience was inexpressibly astonished at the brilliant performance."
+                        }
+                      },
+                      "n": {
+                        "l": {
+                          "i": "那出色的表演使观众感到说不出的惊讶。"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "i": {
+                      "f": {
+                        "l": {
+                          "i": "Visitors were amazed at the students' conversational fluency in English."
+                        }
+                      },
+                      "n": {
+                        "l": {
+                          "i": "访问者对学生们流利的英语感到惊讶。"
+                        }
+                      }
+                    }
+                  }
+                ],
+                "l": {
+                  "i": [
+                    "surprised; amazed; astonished; astounded:"
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "phone": "jīng yà",
+        "return-phrase": {
+          "l": {
+            "i": [
+              "惊讶"
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "simple": {
+    "query": "惊讶",
+    "word": [
+      {
+        "phone": "jīng yà",
+        "return-phrase": "惊讶"
+      }
+    ]
+  },
+  "media_sents_part": {
+    "sentence-count": 6,
+    "more": "media_sents",
+    "query": "惊讶",
+    "sent": [
+      {
+        "@mediatype": "video",
+        "snippets": {
+          "snippet": [
+            {
+              "sourceUrl": "http://v.163.com/special/introductiontotheoryofliterature/",
+              "streamUrl": "movie=http://dict.youdao.com/purevideo?docid=-2070313557839164028&auto=true",
+              "swf": "http://shared.ydstatic.com/dict/4.0/simplayer.swf",
+              "imageUrl": "http://dict.youdao.com/pureimage?docid=-2070313557839164028",
+              "name": "耶鲁公开课",
+              "source": "文学理论导论课程节选"
+            }
+          ]
+        },
+        "chn": "如果“<b>惊讶</b>“元素在阅读过程中是,绝对中心，至高无上的，那么这个间隙必须会更大。<br>",
+        "eng": "If the element of surprise is to become absolutely central and paramount in the reading process, the gap has to get bigger.<br>"
+      },
+      {
+        "@mediatype": "video",
+        "snippets": {
+          "snippet": [
+            {
+              "sourceUrl": "http://v.163.com/special/theamericannovelsince1945/",
+              "streamUrl": "movie=http://dict.youdao.com/purevideo?docid=3502830570416940011&auto=true",
+              "swf": "http://shared.ydstatic.com/dict/4.0/simplayer.swf",
+              "imageUrl": "http://dict.youdao.com/pureimage?docid=3502830570416940011",
+              "name": "耶鲁公开课",
+              "source": "1945年后的美国小说课程节选"
+            }
+          ]
+        },
+        "chn": "他有两个哥哥和两个姐姐，令人<b>惊讶</b>的是当你读他的回忆录时，几乎看不到他们。<br>",
+        "eng": "He had two brothers and two sisters, and it's amazing, when you read his memoirs, how invisible they are.<br>"
+      },
+      {
+        "@mediatype": "video",
+        "snippets": {
+          "snippet": [
+            {
+              "sourceUrl": "http://v.163.com/special/introductiontotheoryofliterature/",
+              "streamUrl": "movie=http://dict.youdao.com/purevideo?docid=5799138589714206032&auto=true",
+              "swf": "http://shared.ydstatic.com/dict/4.0/simplayer.swf",
+              "imageUrl": "http://dict.youdao.com/pureimage?docid=5799138589714206032",
+              "name": "耶鲁公开课",
+              "source": "文学理论导论课程节选"
+            }
+          ]
+        },
+        "chn": "如果令人<b>惊讶</b>之处过多，则会导致读者过劳,最后因失望或绝望而抛开它。<br>",
+        "eng": "If the surprises are too great, then they induce overstrain and we throw away the book in frustration and despair.<br>"
+      }
+    ]
+  },
+  "special": {
+    "summary": {
+      "sources": {
+        "source": {
+          "site": "NoteExpress",
+          "url": "https://dict.youdao.com"
+        }
+      },
+      "text": "以上统计来源于2,447,534篇论文数据，部分数据来源于"
+    },
+    "co-add": "https://dict.youdao.com",
+    "total": "2,447,543",
+    "entries": [
+      {
+        "entry": {
+          "major": "能源科学技术",
+          "trs": [
+            {
+              "tr": {
+                "nat": "astonishment",
+                "cite": "0"
+              }
+            }
+          ],
+          "num": 1
+        }
+      },
+      {
+        "entry": {
+          "major": "语言学",
+          "trs": [
+            {
+              "tr": {
+                "nat": "surprise",
+                "cite": "0"
+              }
+            }
+          ],
+          "num": 1
+        }
+      }
+    ]
+  },
+  "input": "惊讶",
+  "baike": {
+    "summarys": [
+      {
+        "summary": "惊讶，汉字。可以用作形容词和动词。有惊异；惊奇之意。",
+        "key": "惊讶"
+      }
+    ],
+    "source": {
+      "name": "百度百科",
+      "url": ""
+    }
+  },
+  "meta": {
+    "input": "惊讶",
+    "guessLanguage": "zh",
+    "isHasSimpleDict": "1",
+    "le": "en",
+    "lang": "eng",
+    "dicts": [
+      "web_trans",
+      "special",
+      "blng_sents_part",
+      "ce",
+      "baike",
+      "meta",
+      "wuguanghua",
+      "ce_new",
+      "simple",
+      "media_sents_part",
+      "newhh"
+    ]
+  },
+  "le": "en",
+  "lang": "eng",
+  "newhh": {
+    "dataList": [
+      {
+        "pinyin": "jīngyà",
+        "sense": [
+          {
+            "examples": [
+              "听了这个消息，她很<self>惊讶</self>。"
+            ],
+            "def": [
+              "感到意外、奇怪"
+            ],
+            "cat": "形容词"
+          }
+        ],
+        "word": "惊讶"
+      }
+    ],
+    "source": {
+      "name": "《现代汉语规范词典》"
+    },
+    "word": "惊讶"
+  }
+}
