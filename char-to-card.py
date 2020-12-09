@@ -33,20 +33,24 @@ with open('chinese.csv') as chineseFile:
 
     # Get the English translation
     english_definition = ""
-    trans = resp["web_trans"]["web-translation"][0]["trans"]
-    for translation in trans:
-      english_definition += translation["value"] + ", "
+    if "web_trans" in resp:
+      trans = resp["web_trans"]["web-translation"][0]["trans"]
+      for translation in trans:
+        english_definition += translation["value"] + ", "
+    else:
+      print("This word doesn't have a translation:" + row[0])
     card.append(english_definition) # 2 is english translation
 
     # Just add an empty element for the audio
     card.append("") # 3 is audio. Just use awesomeTTS for this
 
     # Get the first example sentence
-    exampleSentence = resp["blng_sents_part"]["sentence-pair"][0]
-    card.append(exampleSentence["sentence-eng"]) # add in the Chinese sentence. This should have the word bolded
-    sentence = pinyin(exampleSentence["sentence"])
-    card.append(' ' .join(chain.from_iterable(sentence))) # next have the pinyin
-    card.append(exampleSentence["sentence-translation"]) # lastly, include the translation
+    if "blng_sents_part" in resp: 
+      exampleSentence = resp["blng_sents_part"]["sentence-pair"][0]
+      card.append(exampleSentence["sentence-eng"]) # add in the Chinese sentence. This should have the word bolded
+      sentence = pinyin(exampleSentence["sentence"])
+      card.append(' ' .join(chain.from_iterable(sentence))) # next have the pinyin
+      card.append(exampleSentence["sentence-translation"]) # lastly, include the translation
 
     print(card)
     newCompletedCards.append(card)

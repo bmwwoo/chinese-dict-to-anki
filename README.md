@@ -5,3 +5,6 @@ This script will take a csv (chinese.csv) and take the first column as Chinese c
 
 To run: 
 `python3 char-to-card.py`
+
+Example card that's automatically created:
+![Example card](./exampleCard.png)
