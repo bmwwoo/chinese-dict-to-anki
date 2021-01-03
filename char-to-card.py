@@ -3,6 +3,7 @@ from itertools import chain
 import csv
 import requests
 import json
+import re
 
 FAKE_HEADER = {
   "Host": "dict.youdao.com",
@@ -21,13 +22,22 @@ with open('chinese.csv') as chineseFile:
 
   chineseChars = []
   for row in chineseReader:
+    word = ""
+    print(row)
+    if len(row) == 0:
+      continue
+    for n in re.findall(r'[\u4e00-\u9fff]+', row[0]):
+      print(n)
+      word = n
+    if word == "":
+      continue
     card = []
-    card.append(row[0]) # 0 is 汉子
-    wordInPinyin = pinyin(row[0])
+    card.append(word) # 0 is 汉子
+    wordInPinyin = pinyin(word)
     card.append(' ' .join(chain.from_iterable(wordInPinyin))) # 1 is pinyin
 
     # get youdao.com data from their api
-    requests_url = "http://dict.youdao.com/jsonapi?q=%s" % row[0]
+    requests_url = "http://dict.youdao.com/jsonapi?q=%s" % word
     print(requests_url)
     resp = requests.get(requests_url, headers=FAKE_HEADER).json()
 
@@ -38,7 +48,7 @@ with open('chinese.csv') as chineseFile:
       for translation in trans:
         english_definition += translation["value"] + ", "
     else:
-      print("This word doesn't have a translation:" + row[0])
+      print("This word doesn't have a translation:" + word)
     card.append(english_definition) # 2 is english translation
 
     # Just add an empty element for the audio
